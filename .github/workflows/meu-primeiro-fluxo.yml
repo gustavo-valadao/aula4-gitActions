@@ -32,7 +32,7 @@ jobs:
       - name: Passo 5
         run: echo "Executando o passo5"
       - name: Passo 6
-        run: echo "Executando o passo6"
+        run: echo "Passo falho" | exit 1
         
   tarefa3:
     name: Terceira tarefa
